@@ -1,3 +1,19 @@
+nav{
+	color: #FFFF;
+	background-color:#F5FFFA;
+	word-spacing:80px;
+		
+}
+a:visted{
+	color: red;
+}
+a:active{
+	color: white;
+}
+a:hover{
+	text-transform: uppercase;
+	background-color: white;
+}
 a{
 	text-decoration: none;
 }

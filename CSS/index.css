@@ -1,3 +1,25 @@
+nav{
+	color: white;
+	background-color:black;
+	word-spacing:80px;
+		
+}
+a:visted{
+	color: red;
+}
+a:active{
+	color: white;
+}
+a:hover{
+	text-transform: uppercase;
+	background-color: white;
+}
 a{
 	text-decoration: none;
+}
+a:navigationBar{
+	color: white;
+}
+#navigationBar {
+	color: white;
 }
