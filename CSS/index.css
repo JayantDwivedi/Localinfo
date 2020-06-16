@@ -1,25 +1,70 @@
-nav{
-	color: white;
-	background-color:cyan;
-	word-spacing:80px;
-		
+body{
+background-color: grey;
 }
-a:visted{
-	color: red;
+
+#heading{
+text-align: left;
+font-size: 90px;
+font
 }
-a:active{
-	color: white;
+
+.navigation{
+background-color: black;
+text-align: left;
+color:white;
 }
-a:hover{
-	text-transform: uppercase;
-	background-color: white;
+
+.col1{
+padding-left: 30px;
+padding-top: 10px;
 }
-a{
-	text-decoration: none;
+
+.col2{
+word-spacing: 2cm;
+padding-top: 20px;
 }
-a:navigationBar{
-	color: white;
+
+.left{
+background-color: white;
+padding-top: 10px;
+padding-left:25px; 
 }
-#navigationBar {
-	color: white;
+
+.mid{
+color:black;
+background-color: #bbd5f0;
+}
+
+a:hover {
+text-transform: uppercase;
+text-decoration: none;
+}
+
+footer {
+text-align: center;
+background-color: black;
+color: white;
+position: relative;
+float: bottom;
+
+}
+
+.upperimage{
+background-image: url("images/openshops.jpg");
+
+}
+
+#onimage{
+font-size: 36px;
+color: white;
+text-align: center;
+}
+
+#icon{
+height: 2.5cm;
+width: 2.5cm;
+}
+
+#intropara{
+font-size: 26px;
 }
