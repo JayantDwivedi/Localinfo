@@ -1,19 +1,23 @@
-nav{
-	color: #FFFF;
-	background-color:#F5FFFA;
-	word-spacing:80px;
-		
+
+*{
+	margin:0px;
+	padding:0px;
 }
-a:visted{
-	color: red;
+body{
+	background-image: url("medicinebg.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-position: bottom;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
-a:active{
-	color: white;
+#heading{
+	padding-top: 20px;
+	font-size: 72px;
+	text-align: center;
 }
-a:hover{
-	text-transform: uppercase;
-	background-color: white;
+.col{
+	text-align: center;
 }
-a{
-	text-decoration: none;
-}
+
