@@ -6,6 +6,7 @@
 body{
 	background-image: url("medicinebg.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 	background-position: bottom;
 	display: flex;

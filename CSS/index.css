@@ -6,46 +6,93 @@ body{
 background-color: grey;
 height:100vh;
 }
-
-#heading{
-text-align: left;
-font-size: 90px;
-font
+/* Upper Section */
+#upper {
+  background-color:black;
+  background-size: cover;
+  height: 100%;
+  width: auto;
 }
 
-.navigation{
-background-color: black;
-text-align: left;
-color:white;
+
+/* Navigatoin Bar */
+
+.navbar {
+  width: 100%;
+  padding: 0 0 4.5rem;
 }
 
-.col1{
-padding-left: 30px;
-padding-top: 10px;
+.navigation {
+  position: fixed;
+  top:0;
 }
 
-.col2{
-word-spacing: 2cm;
-padding-top: 20px;
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  padding: 100px;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+/* Title text */
+
+.title-text{
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+  position: relative;
+  top:90px;
+}
+
+.title-img {
+  position: relative;
+  padding-top: 5%;
+  transform: rotate(45 deegre);
+  top:90px;
+  
+}
+
+.desc {
+  font-size: 32px;;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 72px;
+}
+
+/* Middle Section */
+
+#middle {
+  background-color: white;
+  position: relative;
+  top: 20%;
+  bottom:20%;
+  color: black;
 }
 
 .left{
 background-color: white;
+position: relative;
+left: 20px;
 padding-top: 10px;
 padding-left:25px; 
 }
 
-.mid{
+/* .mid{
 color:black;
 background-color: #bbd5f0;
-}
+} */
 
-a:hover {
-text-transform: uppercase;
-text-decoration: none;
-}
 
-footer {
+
+.footer {
 text-align: center;
 background-color: black;
 color: white;
@@ -54,10 +101,10 @@ float: bottom;
 
 }
 
-.upperimage{
+/* .upperimage{
 background-image: url("openshops.jpg");
 
-}
+} */
 
 #onimage{
 font-size: 36px;
